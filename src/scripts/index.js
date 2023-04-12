@@ -93,13 +93,6 @@ function follow(){
 }
 follow()
 
-// function following(){
-//     const ul = document.querySelector(".sugestion__list")
-//     ul.addEventListener("click", function(event){
-
-//     })
-// }
-
 // CRIANDO LISTA DE POSTS
 
 function sectionPosts(){
@@ -219,13 +212,6 @@ function sectionlike(){
     })
 }
 sectionlike()
-
-// function sectionDislike(){
-//     const ul = document.querySelector(".posts__list")
-//     ul.addEventListener("click", function(event){
-
-//     })
-// }
 
 // Criando Modal
 

@@ -87,6 +87,7 @@
     max-width: 85%;
     border: none;
     border-radius: 0.5rem;
+    margin-top: 2.5rem;
 }
 
 .modal{
@@ -140,6 +141,7 @@
         max-width: 60%;
         border: none;
         border-radius: 0.5rem;
+        margin-top: 4rem;
     }
 }
 
@@ -148,5 +150,15 @@
 @media(min-width: 1440px){
     .main__posts{
         width: 1200px;
+    }
+    .dialog{
+        max-width: 40%;      
+    }
+}
+
+@media(min-width: 2000px){
+    .dialog{
+        max-width: 30%;
+        margin-right: 37%;      
     }
 }
