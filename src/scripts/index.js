@@ -81,17 +81,7 @@ function follow(){
             follow.style.display = "none"
             following.style.display = "block"
         }
-        else{
-            following()
-        }
-    })
-}
-follow()
-
-function following(){
-    const ul = document.querySelector(".sugestion__list")
-    ul.addEventListener("click", function(event){
-        if(event.target.classList.contains("card__following")){
+        else if(event.target.classList.contains("card__following")){
             const following = event.target
             const followingId = event.target.id.substring(9)
             const follow = document.getElementById(`follow${followingId}`)
@@ -101,6 +91,14 @@ function following(){
         }
     })
 }
+follow()
+
+// function following(){
+//     const ul = document.querySelector(".sugestion__list")
+//     ul.addEventListener("click", function(event){
+
+//     })
+// }
 
 // CRIANDO LISTA DE POSTS
 
@@ -206,17 +204,7 @@ function sectionlike(){
             like.style.display = "none"
             dislike.style.display = "flex"
         }
-        else{
-            sectionDislike()
-        }
-    })
-}
-sectionlike()
-
-function sectionDislike(){
-    const ul = document.querySelector(".posts__list")
-    ul.addEventListener("click", function(event){
-        if(event.target.classList.contains("button__dislike")){
+        else if(event.target.classList.contains("button__dislike")){
             const dislike = event.target
             const dislikeId = dislike.id.substring(7)
             const count = document.getElementById(`count${dislikeId}`)
@@ -230,6 +218,14 @@ function sectionDislike(){
         }
     })
 }
+sectionlike()
+
+// function sectionDislike(){
+//     const ul = document.querySelector(".posts__list")
+//     ul.addEventListener("click", function(event){
+
+//     })
+// }
 
 // Criando Modal
 

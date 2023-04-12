@@ -25,13 +25,6 @@
     --text-size-3: 0.75rem;
 }
 
-.teste{
-    background-color: #0A0C0D;
-}
-.teste2{
-    background-color: #364FC7;
-}
-
 body{
     background-color: var(--grey-5);
     width: 100%;
