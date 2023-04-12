@@ -1,0 +1,65 @@
+:root{
+    /* Brand Colors */
+    --brand-1: #4263EB;
+    --brand-2: #364FC7;
+    
+    /* Grey Colors */
+    --grey-0: #0A0C0D;
+    --grey-1: #212529;
+    --grey-2: #495057;
+    --grey-3: #868E96;
+    --grey-4: #DEE2E6;
+    --grey-5: #F8F9FA;
+    --grey-opacity-1:: rgba(33,37,41,0.5);
+
+    /* Like Color */
+    --like-color: #D7443E;
+
+    /* Title Size */
+    --title-1: 1.75rem;
+    --title-2: 1.25rem;
+
+    /* Text Size */
+    --text-size-1: 1rem;
+    --text-size-2: 0.875rem;
+    --text-size-3: 0.75rem;
+}
+
+.teste{
+    background-color: #0A0C0D;
+}
+.teste2{
+    background-color: #364FC7;
+}
+
+body{
+    background-color: var(--grey-5);
+    width: 100%;
+    position: relative;
+}
+
+body img{
+ height: 3rem;
+ width: 3rem;
+ cursor: pointer;
+}
+
+.title{
+    font-size: var(--title-2);
+    color: var(--grey-1);
+    padding: 1rem 0rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+
+/* Estilizando para telas médias e maiores */
+
+@media(min-width: 720px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
